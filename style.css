@@ -1,0 +1,54 @@
+.fundo{
+    text-align: center;
+    background-color:tomato;
+    height: 350px;
+    width: 500px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 30px;
+}
+
+span{
+    display: block;
+    padding: 10px;
+}
+p{
+    display: inline-block;
+    text-align: center;
+    background-color: #fff;
+    width: 169.6px;
+    height: 18px;
+    padding-top: 6px;
+    color: black;
+}
+body{
+    background-color: gold;
+}
+.botao{
+    display: block;
+    margin-left: 43%;
+    height: 30px;
+    width: 70px;
+    border: none;
+    background-color: gold;
+    color: black;
+    font-family: helvetica;
+    border-radius: 10px;
+}
+.botao:hover{
+    background-color: goldenrod;
+    cursor: pointer;
+}
+#numeroA,#numeroB,#numeroC,p{
+    height: 36px;
+    outline: 0;
+    border: none;
+    text-align: center;
+}
+form>img{
+    display: inline-block;
+    margin-top: 20px;
+}

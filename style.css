@@ -1,7 +1,7 @@
 .fundo{
     text-align: center;
     background-color:tomato;
-    height: 350px;
+    height: 380px;
     width: 500px;
     color: black;
     position: absolute;
@@ -16,12 +16,13 @@ span{
     padding: 10px;
 }
 p{
+    box-sizing: border-box;
     display: inline-block;
     text-align: center;
     background-color: #fff;
     width: 169.6px;
-    height: 18px;
-    padding-top: 6px;
+    height: 28px;
+    padding-top: 8px;
     color: black;
 }
 body{
@@ -37,6 +38,7 @@ body{
     color: black;
     font-family: helvetica;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .botao:hover{
     background-color: goldenrod;
@@ -47,8 +49,18 @@ body{
     outline: 0;
     border: none;
     text-align: center;
+    margin: 30px;
 }
-form>img{
+ .seta1{
     display: inline-block;
-    margin-top: 20px;
+   position: absolute;
+   right: 220px;
+   top: 105px;
+   
+}
+.seta2{
+    display: block;
+    position: absolute;
+   right: 220px;
+   top: 225px;
 }
